@@ -85,7 +85,7 @@ module.exports = {
     var _title = (typeof title === 'string' ? title : 'Prompt');
     var _buttonLabels = (buttonLabels || ['OK', 'Cancel']);
     var _inputType = (inputType || 'text');
-    _inputType = 'number';
+    
     //var _allowedInputType = ['text', 'password', 'number'];
     //if (_allowedInputType.includes(_inputType) == false) _inputType = 'text';
 
