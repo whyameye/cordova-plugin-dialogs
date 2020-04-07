@@ -86,8 +86,8 @@ module.exports = {
     var _buttonLabels = (buttonLabels || ['OK', 'Cancel']);
     var _inputType = (inputType || 'text');
     
-    var _allowedInputType = ['text', 'password', 'number'];
-    if (_allowedInputType.includes(_inputType) == false) _inputType = 'text';
+    //var _allowedInputType = ['text', 'password', 'number'];
+    //if (_allowedInputType.includes(_inputType) == false) _inputType = 'text';
 
         // Strings are deprecated!
         if (typeof _buttonLabels === 'string') {
